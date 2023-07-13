@@ -1,4 +1,4 @@
-import 'package:test_project/page/pdf.dart';
+import 'package:test_project/page/pdfView.dart';
 import 'package:flutter/material.dart';
 
 void main() {

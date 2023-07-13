@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:printing/printing.dart';
-import 'package:test_project/util/util.dart';
+import 'package:test_project/utilities/utilities.dart';
 
 class PdfScreen extends StatefulWidget {
   const PdfScreen({super.key});
@@ -13,6 +13,7 @@ class PdfScreen extends StatefulWidget {
 
 class _PdfScreenState extends State<PdfScreen> {
   PrintingInfo? printingInfno;
+
   Future<void> _int() async {
     final info = await Printing.info();
     setState(() {
